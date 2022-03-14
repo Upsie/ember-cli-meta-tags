@@ -58,7 +58,8 @@ module('Integration | Component | head tag', function(hooks) {
       'src',
       'property',
       'itemprop',
-      'id'
+      'id',
+      'data-rm-token'
     ]).forEach(function(attr) {
       attrs[attr] = `the-${attr}`;
     });

@@ -8,6 +8,8 @@ export default Component.extend({
   init() {
     this._super(...arguments);
     this.set('tagName', this.get('headTag.type'));
+    // eslint-disable-next-line no-console
+    console.log("head tag init");
   },
 
   // expected head tag attributes
