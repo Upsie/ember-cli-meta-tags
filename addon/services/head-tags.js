@@ -76,8 +76,6 @@ export default Service.extend({
       }
       tagMap[tagId] = tagDefinition;
     });
-    // eslint-disable-next-line no-console
-    console.log('tag map: ', tagMap);
     return tagMap;
   }
 });
