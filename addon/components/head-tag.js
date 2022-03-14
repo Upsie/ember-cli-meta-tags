@@ -32,7 +32,8 @@ export default Component.extend({
     'src',
     'property',
     'itemprop',
-    'id'
+    'id',
+    'data-rm-token'
   ],
   href:         reads('headTag.attrs.href'),
   target:       reads('headTag.attrs.target'),
@@ -54,6 +55,6 @@ export default Component.extend({
   src:          reads('headTag.attrs.src'),
   property:     reads('headTag.attrs.property'),
   itemprop:     reads('headTag.attrs.itemprop'),
-  id:           reads('headTag.attrs.id')
-
+  id:           reads('headTag.attrs.id'),
+  'data-rm-token': reads('headTag.attrs.data-rm-token')
 });
